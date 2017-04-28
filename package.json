@@ -1,10 +1,9 @@
 {
-  "name": "psg-theme-minimal",
+  "name": "psg-theme-dscout",
   "version": "0.1.0",
-  "description": "Minimal: Theme for postcss-style-guide",
+  "description": "dscout theme for postcss-style-guide",
   "scripts": {
-    "dev": "postcss -c test/postcss.js -w",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "postcss -c test/postcss.js -w"
   },
   "devDependencies": {
     "postcss-cli": "^2.5.2",
@@ -14,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/blivesta/psg-theme-minimal/git"
+    "url": "https://github.com/dscout/psg-theme-dscout.git"
   },
   "keywords": [
     "psg-theme",
@@ -22,5 +21,8 @@
     "postcss"
   ],
   "author": "blivesta",
+  "contributors": [
+    "Taylor Briggs <taylor.briggs@dscout.com>"
+  ],
   "license": "MIT"
 }
