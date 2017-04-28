@@ -32,10 +32,9 @@ p[id],
 
 .psg-menu {
   width: 240px;
-  height: 100%;
   padding: 3rem 2rem;
   border-right: 1px solid #ddd;
-  overflow-y: scroll;
+  overflow: auto;
 }
 
 .psg-projectName,
@@ -46,12 +45,6 @@ p[id],
 .psg-projectName {
   margin-top: 0;
   margin-bottom: .5rem;
-}
-
-.psg-updatedTime {
-  font-size: .75rem;
-  margin-top: 0;
-  margin-bottom: 1.75rem;
 }
 
 .psg-componentList {
