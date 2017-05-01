@@ -1,6 +1,6 @@
 {
   "name": "psg-theme-dscout",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "dscout theme for postcss-style-guide",
   "scripts": {
     "dev": "postcss -c test/postcss.js -w"
